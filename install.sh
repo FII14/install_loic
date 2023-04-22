@@ -23,7 +23,7 @@ do
     cp LOIC.exe /usr/bin
     echo -e "${h}[+] ${p}LOIC berhasil diinstal."
     sleep 3
-    echo -e "${h}[+] ${p}Untuk menjalankannya ketikkan perintah LOIC.exe"
+    echo -e "${h}[+] ${p}Untuk menjalankannya ketikkan perintah ${h}LOIC.exe${p}"
     sleep 3
     exit 0
     
