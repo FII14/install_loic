@@ -1,5 +1,8 @@
 #!/bin/bash
-# install loic
+#--------------------------------
+# ------- install loic ----------
+# ------- pembuat: fii14 --------
+#--------------------------------
 
 while true
 do
@@ -11,9 +14,9 @@ do
     apt-get install zip -y
     apt-get install mono-complete -y
     cd loic
-    unzip loic.zip
-    chmod +x loic.exe
-    cp loic.exe /usr/bin
+    unzip LOIC-1.0.8-binary.zip
+    chmod +x LOIC.exe
+    cp LOIC.exe /usr/bin
     echo "LOIC berhasil diinstal."
     exit 0
     
